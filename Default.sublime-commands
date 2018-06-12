@@ -1,0 +1,62 @@
+[
+	{
+    "caption": "Reg Replace: Remove Trailing Spaces",
+    "command": "reg_replace",
+    "args": {"replacements": ["a1"]}
+	},
+	{
+		"caption": "paste multilines as one, / in line begin",
+		"command": "paste_multilines_as_one",
+		"args": {"slash_position": "begin"}
+	},
+	{
+		"caption": "paste multilines as one, / in line end",
+		"command": "paste_multilines_as_one",
+		"args": {"slash_position": "end"}
+	},
+	{
+		"caption": "paste multilines as one, no /",
+		"command": "paste_multilines_as_one",
+		"args": {"slash_position": "no"}
+	},
+	{
+		"caption": "remove html attrs",
+		"command": "remove_html_attrs",
+		"args": {}
+	},
+	{
+		"caption": "convert fields to table (seperated by comma)",
+		"command": "convert_fields_to_table",
+		"args": {"seperator": ","}
+	},
+	{
+		"caption": "convert fields to table (seperated by tab)",
+		"command": "convert_fields_to_table",
+		"args": {"seperator": "\t"}
+	},
+	{
+		"caption": "convert fields to table (seperated by vertical line)",
+		"command": "convert_fields_to_table",
+		"args": {"seperator": "|"}
+	},
+	{
+		"caption": "close all saved file",
+		"command": "close_all_saved_file"
+	},
+	{
+		"caption": "count duplicate lines",
+		"command": "count_duplicates"
+	},
+	{
+		"caption": "convert datetime to timestamp",
+		"command": "convert_datetime"
+	},
+	{
+		"caption": "convert timestamp to datetime",
+		"command": "convert_timestamp_to_datetime"
+	},
+	{
+		"caption": "replace duplicate lines to dash",
+		"command": "replace_duplines_to_dash"
+	}
+]
