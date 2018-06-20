@@ -85,6 +85,29 @@
 		</tbody>
 	</table>
 
+## html_table_to_text.py.py
+convert_fields_to_table的逆操作，将table的html源码转换为竖线分割的文本表格，之后可以配合sublime的table editor整理对齐、编辑。
+
+	<table>
+		<tbody>
+			<tr>
+				<td>标题1</td>
+				<td>标题2</td>
+				<td>标题3</td>
+			</tr>
+			<tr>
+				<td>数据1</td>
+				<td>数据2</td>
+				<td>数据3</td>
+			</tr>
+		</tbody>
+	</table>
+
+运行命令可以得到：
+
+	| 标题1| 标题2| 标题3|
+	| 数据1| 数据2| 数据3|
+
 ## remove_html_attrs.py
 删除HTML源码中的标签属性。
 
@@ -98,3 +121,4 @@
 三个编辑点的星号之间的内容被选中后，运行命令可以得到：
 
 	很长的/较长的/长有点/
+
