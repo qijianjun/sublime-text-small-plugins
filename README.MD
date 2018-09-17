@@ -122,3 +122,6 @@ convert_fields_to_table的逆操作，将table的html源码转换为竖线分割
 
 	很长的/较长的/长有点/
 
+## show_file_status.py
+![image](http://github.com/qijianjun/sublime-text-small-plugins/raw/master/images/sublime-text-file-status.png)
+显示文件当前的状态，SAVED / UNSAVED / NONE / DEL 分别代表已保存、文件存在但未保存更改、文件不再盘上、文件之前在盘上但已被删除。详情参考：[在SublimeText编辑器中显示文件状态	 24小时内最新](https://vps123.top/show-file-status-in-sublime-text.html)
