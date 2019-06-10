@@ -125,3 +125,13 @@ convert_fields_to_table的逆操作，将table的html源码转换为竖线分割
 ## show_file_status.py
 ![image](https://raw.githubusercontent.com/qijianjun/sublime-text-small-plugins/master/images/sublime-text-file-status.png)
 显示文件当前的状态，SAVED / UNSAVED / NONE / DEL 分别代表已保存、文件存在但未保存更改、文件不再盘上、文件之前在盘上但已被删除。详情参考：[在SublimeText编辑器中显示文件状态](https://vps123.top/show-file-status-in-sublime-text.html)。
+
+## calculate_nums.py
+![image](https://raw.githubusercontent.com/qijianjun/sublime-text-small-plugins/master/images/calnums.png)
+状态栏显示全部选中区域的数字的数量、和、均值、最大值、最小值，取消选中区域后状态栏清除显示。
+
+## sum_dublicates.py
+计算全部行的出现次数，按从大到小排列。
+
+## single_selection_keep_last_cursor.py
+仅保留最后一个选区。
